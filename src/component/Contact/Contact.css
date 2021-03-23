@@ -1,0 +1,28 @@
+.contact-form{
+    margin-bottom: 10%;
+}
+
+.btn-margin{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.Sucess-div h1{
+    color: white;
+    margin: 0;
+    font-size: 150%;
+}
+
+.Sucess-div h2{
+    color: #28a745;
+    font-size: 400%;
+    margin: 0;
+}
+
+.success-heart{
+    color: red;
+    font-size: 250%;
+    margin: 0;
+}

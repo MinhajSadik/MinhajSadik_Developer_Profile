@@ -1,0 +1,101 @@
+.about{
+    margin-top: 20%;
+}
+
+
+.img-size img{
+    margin-top: 15%;
+    width: 250px;
+    filter: grayscale(1);
+    transition: all 1s;
+    transition-timing-function: ease;
+    
+}
+
+.img-size img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+
+.about-mySelf{
+    margin-top: 10%;
+}
+
+.about-mySelf p{
+    color: white;
+}
+
+@media only screen and (min-width: 150px) and (max-width:244px) {
+
+    .about{
+        margin-top: 60%;
+        text-align: center;
+    }
+
+    .img-size img{
+        margin-top: 25%;
+        width: 100%;
+    }
+
+    .about-mySelf p{
+        font-size: 65%;
+    }
+   
+}
+
+@media only screen and (min-width: 245px) and (max-width:350px){
+    .about{
+        margin-top: 60%;
+        text-align: center;
+    }
+
+    .img-size img{
+        margin-top: 25%;
+        width: 100%;
+    }
+
+    .about-mySelf p{
+        font-size: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 351px) and (max-width:500px){
+    .about{
+        margin-top: 60%;
+        text-align: center;
+    }
+
+    .img-size img{
+        margin-top: 25%;
+        width: 80%;
+    }
+
+    .about-mySelf p{
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width:700px){
+    .about{
+        margin-top: 60%;
+        text-align: center;
+    }
+
+    .img-size img{
+        margin-top: 25%;
+        width: 60%;
+    }
+
+    .about-mySelf p{
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+    .about-mySelf{
+        padding-left:6%;
+    }
+
+}

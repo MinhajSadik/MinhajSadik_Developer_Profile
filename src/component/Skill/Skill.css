@@ -1,0 +1,44 @@
+.skill{
+    margin-top: 20%;
+}
+
+.skill-title{
+    margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 150px) and (max-width:244px){
+    .skill-title{
+        margin-bottom: 20%;
+    }
+
+    .skill{
+       text-align: center;
+    }
+}
+
+@media only screen and (min-width: 245px) and (max-width:350px){
+    .skill-title{
+        margin-bottom: 20%;
+    }
+    .skill{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width:500px){
+    .skill-title{
+        margin-bottom: 20%;
+    }
+    .skill{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width:700px){
+    .skill-title{
+        margin-bottom: 20%;
+    }
+    .skill{
+        text-align: center;
+    }
+}

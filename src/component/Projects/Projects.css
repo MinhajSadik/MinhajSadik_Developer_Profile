@@ -1,0 +1,27 @@
+.card-style{
+    margin-bottom: 12%;
+}
+
+.card{
+    background-color: #111a28;
+}
+
+.card h5, p, a{
+    color: white;
+}
+
+.card a{
+    font-size: 170%;
+    margin-right: 2%;
+}
+
+
+.card a:hover{
+    color: #218838;
+}
+
+.card:hover{
+    background: #1d293a;
+    box-shadow:  10px 10px 20px #121923; 
+
+}

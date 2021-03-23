@@ -1,0 +1,368 @@
+body{
+    background-color: #111a28;
+    overflow-x: hidden;
+}
+
+
+.intro{
+    margin-top: 20%;
+}
+
+.hello{
+    font-size: 24px;
+    margin: 0;
+}
+
+.name-color{
+    color: white;
+    font-size: 74px;
+    margin: 0px 0px 15px 0px;
+}
+
+.developer{
+    margin-bottom: 15px;
+}
+
+.btn{
+    margin-right: 20px;
+}
+
+
+.back-line{
+    position: relative;
+    height: 1px;
+    width: 250px;
+    background-color: white;
+    
+}
+
+.front-box{
+    background-color: #1d293a ;
+    height: 30px;
+    border-radius: 4px;
+    padding: 10px 30px;
+}
+
+.front-box p{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.icon{
+    font-size: 24px;
+    margin-top: 30px;
+         
+}
+
+.icon .icon2{
+    margin-right: 35px;
+    color: white;
+}    
+
+
+@media only screen and (min-width: 150px) and (max-width:244px) {
+    
+    .intro{
+        text-align: center;
+    }
+
+    .hello{
+        font-size: 70%;
+    }
+
+    .name-color{
+        font-size: 120%;
+    }
+
+    .developer{
+        font-size: 50%;
+    }
+
+    .btn-style{
+        margin: auto;
+        width: 90%;
+        font-size: 70%;
+    }
+
+    .back-line{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .front-box{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .back-line{
+        position: relative;
+        height: 1px;
+        width: 90%;
+        background-color: white;
+        
+    }
+
+    .front-box{
+        background-color: #1d293a ;
+        height: 15px;
+        border-radius: 2px;
+        padding: 2px 10px;
+    }
+    
+    .front-box p{
+        color: white;
+        font-size: 50%;
+        margin-top: 15px;
+        text-align: center;
+        font-weight: 400;
+        text-transform: uppercase;
+    } 
+    
+    .icon{
+        position: absolute;
+        font-size: 80%;
+        left: 0;
+        right: 0;
+        margin: 30px auto;        
+    }
+
+    .icon .icon2{
+        margin: 5%;
+        color: white;
+    }
+
+  }
+
+
+
+@media only screen and (min-width: 245px) and (max-width:350px) {
+    
+    .intro{
+        text-align: center;
+    }
+
+    .hello{
+        font-size: 120%;
+    }
+
+    .name-color{
+        font-size: 185%;
+    }
+
+    .developer{
+        font-size: 100%;
+    }
+
+    .btn-style{
+        margin: auto;
+        width: 90%;
+        font-size: 100%;
+    }
+
+    .back-line{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .front-box{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .back-line{
+        position: relative;
+        height: 1px;
+        width: 90%;
+        background-color: white;
+        
+    }
+
+    .front-box{
+        background-color: #1d293a ;
+        height: 30px;
+        border-radius: 4px;
+        padding: 10px 20px;
+    }
+    
+    .front-box p{
+        color: white;
+        font-size: 70%;
+        margin-top: 15px;
+        text-align: center;
+        font-weight: 400;
+        text-transform: uppercase;
+    } 
+    
+    .icon{
+        position: absolute;
+        font-size: 100%;
+        left: 0;
+        right: 0;
+        margin: 30px auto;        
+    }
+
+    .icon .icon2{
+        margin: 5%;
+        color: white;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 351px) and (max-width:500px) {
+    
+    .intro{
+        text-align: center;
+    }
+
+    .hello{
+        font-size: 150%;
+    }
+
+    .name-color{
+        font-size: 290%;
+    }
+
+    .developer{
+        font-size: 150%;
+    }
+
+    .btn-style{
+        margin: auto;
+        width: 90%;
+        font-size: 100%;
+    }
+
+    .back-line{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .front-box{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .back-line{
+        position: relative;
+        height: 1px;
+        width: 90%;
+        background-color: white;
+        
+    }
+
+    .front-box{
+        background-color: #1d293a ;
+        height: 30px;
+        border-radius: 4px;
+        padding: 10px 30px;
+    }
+    
+    .front-box p{
+        color: white;
+        font-size: 100%;
+        margin-top: 15px;
+        text-align: center;
+        font-weight: 600;
+        text-transform: uppercase;
+    } 
+    
+    .icon{
+        position: absolute;
+        font-size: 150%;
+        left: 0;
+        right: 0;
+        margin: 30px auto;        
+    }
+
+    .icon .icon2{
+        margin: 5%;
+        color: white;
+    }
+
+  }
+
+
+  
+  @media only screen and (min-width: 501px) and (max-width:700px) {
+    
+    .intro{
+        text-align: center;
+    }
+
+    .hello{
+        font-size: 200%;
+    }
+
+    .name-color{
+        font-size: 390%;
+    }
+
+    .developer{
+        font-size: 200%;
+    }
+
+    .btn-style{
+        margin: 0 5% 0 0;
+        font-size: 100%;
+    }
+
+    .back-line{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .front-box{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .back-line{
+        position: relative;
+        height: 1px;
+        width: 90%;
+        background-color: white;
+        
+    }
+
+    .front-box{
+        background-color: #1d293a ;
+        height: 30px;
+        border-radius: 4px;
+        padding: 15px 40px;
+    }
+    
+    .front-box p{
+        color: white;
+        font-size: 100%;
+        margin-top: 15px;
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
+    } 
+    
+    .icon{
+        position: absolute;
+        font-size: 200%;
+        left: 0;
+        right: 0;
+        margin: 30px auto;        
+    }
+
+    .icon .icon2{
+        margin: 5%;
+        color: white;
+    }
+
+  }

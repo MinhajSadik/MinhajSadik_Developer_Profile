@@ -11,8 +11,8 @@ const Intro = () => {
     return (
         <div className="container intro">
             <div id="intro-section" className="col-md-12">
-                <p className="text-success hello">Hello! I am</p>
-                <h1 className="name-color">S M AL RABBI</h1>
+                <p className="text-success hello"></p>
+                <h1 className="name-color"> Yaa, Allah Ya Raab</h1>
                 <h3 className="font-weight-bolder text-success developer">
                     I am a
                         <Typical

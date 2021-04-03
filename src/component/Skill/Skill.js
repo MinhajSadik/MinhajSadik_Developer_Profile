@@ -5,6 +5,7 @@ import Progress from '../Progress/Progress';
 
 const Skill = () => {
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const allSkill = [
         { id: "01", skillType: 'web', skill: "React", expertLevel: 90 },
         { id: "02", skillType: 'web', skill: "Redux", expertLevel: 90 },
@@ -41,7 +42,7 @@ const Skill = () => {
         const specificSkill = allSkill.filter(skill => skill.skillType === 'web');
         setGetSkill(specificSkill);
 
-    },[])
+    },[allSkill])
 
 
     const handleWeb = () => {

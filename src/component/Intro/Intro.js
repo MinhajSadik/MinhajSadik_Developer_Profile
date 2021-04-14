@@ -12,11 +12,11 @@ const Intro = () => {
         <div className="container intro">
             <div id="intro-section" className="col-md-12">
                 <p className="text-success hello"></p>
-                <h1 className="name-color"> Yaa, Allah Ya Raab</h1>
+                <h1 className="name-color">Minhaj Sadik</h1>
                 <h3 className="font-weight-bolder text-success developer">
                     I am a
                         <Typical
-                        steps={[' Web Developer', 3000, ' Designer', 3000, ' Programmer', 3000, ' YouTuber', 3000]}
+                        steps={[' Web Developer', 3000, ' Designer', 3000, ' Programmer', 3000, ' Clever Learner', 3000]}
                         loop={Infinity}
                         wrapper="b"
                     />
@@ -35,10 +35,10 @@ const Intro = () => {
                 </div>
 
                 <div className="icon">
-                    <a className="icon2" href="https://github.com/rabbism" target="_blank" rel="noopener noreferrer"><FaGithubSquare /></a>
-                    <a className="icon2" href="https://www.linkedin.com/in/s-m-al-rabbi-1976b11b1/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
-                    <a className="icon2" href="https://medium.com/" target="_blank" rel="noopener noreferrer"><AiOutlineMedium /></a>
-                    <a className="icon2" href="https://www.youtube.com/channel/UCzoklnSwNmq_0ldHX6q-L0Q?view_as=subscriber" target="_blank" rel="noopener noreferrer"><AiFillYoutube /></a>
+                    <a className="icon2" href="https://github.com/MinhajSadik" target="_blank" rel="noopener noreferrer"><FaGithubSquare /></a>
+                    <a className="icon2" href="https://www.linkedin.com/MinhajSadik" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
+                    <a className="icon2" href="https://medium.com/@minhajsadik" target="_blank" rel="noopener noreferrer"><AiOutlineMedium /></a>
+                    <a className="icon2" href="https://www.youtube.com/channel/UC6I0U9NjTTQQGpKI73_mNXQ" target="_blank" rel="noopener noreferrer"><AiFillYoutube /></a>
                 </div>
             </div>
         </div>

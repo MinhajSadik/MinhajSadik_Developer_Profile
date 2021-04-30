@@ -24,7 +24,7 @@ const About = () => {
                 </div>
                 <div data-aos="flip-up" className="col-md-8 about-mySelf">
                     <p>Hello, I'm Minhaj Sadik,</p>
-                    <a href={CV} download="Al rabbi CV"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
+                    <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
                     <a href="#skill-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">My Skill</button></a>
                 </div>
             </div>

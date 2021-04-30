@@ -28,11 +28,11 @@ const Header = () => {
                             <a className="nav-link" href="#contact-section">Contact</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://cleverlearnerz.blogspot.com" target="_blank" rel="noopener noreferrer" >Blog</a>
+                            <a className="nav-link" href="https://medium.com/@minhajsadik" target="_blank" rel="noopener noreferrer" >Blog</a>
                         </li>
                     </ul>
 
-                    <a href={CV} download="Al Rabbi CV"><button className="btn btn-outline-success my-2 my-sm-0" >Get Resume</button></a>
+                    <a href={CV} download="Resume"><button className="btn btn-outline-success my-2 my-sm-0" >Get Resume</button></a>
                 </div>
             </div>
         </nav >

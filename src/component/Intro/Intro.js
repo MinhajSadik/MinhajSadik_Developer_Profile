@@ -21,7 +21,7 @@ const Intro = () => {
                         wrapper="b"
                     />
                 </h3>
-                <a href={CV} download="Al Rabbi CV"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
+                <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
                 <a href="#about-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></a>
                 <br />
                 <br />

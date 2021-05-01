@@ -36,7 +36,7 @@ const Intro = () => {
 
                 <div className="icon">
                     <a className="icon2" href="https://github.com/MinhajSadik" target="_blank" rel="noopener noreferrer"><FaGithubSquare /></a>
-                    <a className="icon2" href="https://www.linkedin.com/MinhajSadik" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
+                    <a className="icon2" href="https://www.linkedin.com/in/MinhajSadik" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
                     <a className="icon2" href="https://medium.com/@minhajsadik" target="_blank" rel="noopener noreferrer"><AiOutlineMedium /></a>
                     <a className="icon2" href="https://www.youtube.com/channel/UC6I0U9NjTTQQGpKI73_mNXQ" target="_blank" rel="noopener noreferrer"><AiFillYoutube /></a>
                 </div>

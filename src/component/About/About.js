@@ -20,7 +20,7 @@ const About = () => {
             </div>
             <div className="row">
                 <div data-aos="flip-down" className="col-md-4 img-size">
-                    <img src={Minhaj} alt="Al Rabbi" />
+                    <img src={Minhaj} alt="MinhajSadik" />
                 </div>
                 <div data-aos="flip-up" className="col-md-8 about-mySelf">
                     <p>Hello, I'm Minhaj Sadik,</p>

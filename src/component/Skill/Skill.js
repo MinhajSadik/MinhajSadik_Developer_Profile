@@ -7,29 +7,29 @@ const Skill = () => {
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
     const allSkill = [
-        { id: "01", skillType: 'web', skill: "HTML", expertLevel: 95 },
-        { id: "02", skillType: 'web', skill: "CSS", expertLevel: 95 },
-        { id: "03", skillType: 'web', skill: "Bootstrap", expertLevel: 95 },
-        { id: "04", skillType: 'web', skill: "Meterial-UI", expertLevel: 95 },
-        { id: "05", skillType: 'web', skill: "React.js", expertLevel: 90 },
-        { id: "06", skillType: 'web', skill: "Next.js", expertLevel: 90 },
-        { id: "07", skillType: 'web', skill: "Redux.js", expertLevel: 90 },
-        { id: "08", skillType: 'web', skill: "Node.js", expertLevel: 65 },
-        { id: "09", skillType: 'web', skill: "Express.js", expertLevel: 50},
-        { id: "10", skillType: 'web', skill: "MongoDB", expertLevel: 90},
-        { id: "11", skillType: 'web', skill: "MySQL", expertLevel:  98 },
+        { id: "01", skillType: 'web', skill: "React", expertLevel: 90 },
+        { id: "02", skillType: 'web', skill: "Redux", expertLevel: 90 },
+        { id: "03", skillType: 'web', skill: "Node.JS", expertLevel: 65 },
+        { id: "04", skillType: 'web', skill: "Express.JS", expertLevel: 50},
+        { id: "05", skillType: 'web', skill: "MongoDB", expertLevel: 90},
+        { id: "06", skillType: 'web', skill: "MySQL", expertLevel:  98 },
+        { id: "07", skillType: 'web', skill: "Meterial-UI", expertLevel:  95 },
+        { id: "08", skillType: 'web', skill: "Bootstrap", expertLevel: 95},
+        { id: "09", skillType: 'web', skill: "CSS", expertLevel:  95},
+        { id: "10", skillType: 'web', skill: "HTML", expertLevel:  95 },
 
-        { id: "12", skillType: 'programming', skill: "JavaScript", expertLevel: 95 },
-        { id: "13", skillType: 'programming', skill: "Python", expertLevel: 75 },
-        { id: "14", skillType: 'programming', skill: "C++", expertLevel: 50 },
-        { id: "15", skillType: 'programming', skill: "C", expertLevel: 50 },
-        { id: "16", skillType: 'programming', skill: "PHP", expertLevel: 50 },
+        { id: "11", skillType: 'programming', skill: "JavaScript", expertLevel: 90 },
+        { id: "12", skillType: 'programming', skill: "Java", expertLevel: 90 },
+        { id: "13", skillType: 'programming', skill: "C++", expertLevel: 75 },
+        { id: "14", skillType: 'programming', skill: "C", expertLevel: 80 },
+        { id: "15", skillType: 'programming', skill: "PHP", expertLevel: 75 },
 
-        { id: "17", skillType: 'tools', skill: "Git", expertLevel: 95 },
+        { id: "16", skillType: 'tools', skill: "Git", expertLevel: 95 },
+        { id: "17", skillType: 'tools', skill: "Web Pack", expertLevel: 90 },
         { id: "18", skillType: 'tools', skill: "VSCode", expertLevel: 95 },
         { id: "19", skillType: 'tools', skill: "Dev Tool", expertLevel: 90 },
-        { id: "20", skillType: 'tools', skill: "Netlify", expertLevel: 85 },
-        { id: "21", skillType: 'tools', skill: "Heroku", expertLevel: 70 },
+        { id: "20", skillType: 'tools', skill: "Photoshop", expertLevel: 85 },
+        { id: "21", skillType: 'tools', skill: "Illustrator", expertLevel: 70 },
     ];
 
     const [getSkill, setGetSkill] = useState([]);

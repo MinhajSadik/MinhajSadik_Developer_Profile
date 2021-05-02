@@ -24,9 +24,9 @@ function App() {
       <Header/>
       <Switch>
 
-        <Route path="/">
-          <Intro/>
-        </Route>
+        <Route path="/intro">
+          <Intro />
+       </Route>
 
         <Route path="/about">
           <About/>
@@ -34,7 +34,7 @@ function App() {
 
         <Route path="/skill">
           <Skill />
-          <LoveToDo />
+          <LoveToDo/>
         </Route>
 
         <Route path="/projects">
@@ -44,16 +44,17 @@ function App() {
         <Route path="/contact">
           <Contact/>
         </Route>
-
-        <Route path="/footer">
-          <Footer/>
-        </Route>
-        
+      
         <Route exact path="*">
-          <Intro/>
+          <Intro />
+        </Route>
+
+        <Route path="/">
+          <Intro />
         </Route>
 
       </Switch>
+      <Footer/>
     </Router>
 
   </>);

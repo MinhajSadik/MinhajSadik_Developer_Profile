@@ -12,17 +12,17 @@ const Projects = () => {
     const allProjects = [
         {
             id: '01', img: "" + creative, title: "Creative Agency", description: "A fullstack creative agency website.",
-            gitHub: "https://github.com/MinhajSadik/Creative-Agency", liveLink: "https://creative-agency-200b7.web.app/"
+            gitHub: "https://github.com/MinhajSadik/Creative-Agency", liveLink: "https://creative-agency-2007.web.app/"
         },
 
         {
             id: '02', img: "" + volunteer, title: "Volunteer-Network", description: "A fullstack hot volunteer network  website.",
-            gitHub: "https://github.com/MinhajSadik/Volunteer-Network", liveLink: "https://volunteer-network-5b947.web.app/"
+            gitHub: "https://github.com/MinhajSadik/Volunteer-Network", liveLink: "https://volunteer-network-5947.web.app/"
         },
 
         {
             id: '03', img: "" + travel, title: "Travel Guru", description: "A fullstack travel guru website.",
-            gitHub: "https://github.com/MinhajSadik/Travel-Guru", liveLink: "https://distracted-varahamihira-1c0a00.netlify.app/"
+            gitHub: "https://github.com/MinhajSadik/Travel-Guru", liveLink: "https://distracted-varahamihira-10a00.netlify.app/"
         },
 
         {

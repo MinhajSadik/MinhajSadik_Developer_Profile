@@ -23,6 +23,10 @@ function App() {
     <Router>
       <Header/>
       <Switch>
+        
+        <Route exact path="/">
+          <Intro />
+        </Route>
 
         <Route path="/intro">
           <Intro />
@@ -45,11 +49,7 @@ function App() {
           <Contact/>
         </Route>
       
-        <Route exact path="*">
-          <Intro />
-        </Route>
-
-        <Route path="/">
+        <Route path="*">
           <Intro />
         </Route>
 

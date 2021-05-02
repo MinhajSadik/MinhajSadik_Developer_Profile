@@ -8,7 +8,13 @@ import LoveToDo from './component/LoveToDo/LoveToDo';
 import Projects from './component/Projects/Projects';
 import Contact from './component/Contact/Contact';
 import Footer from './component/Footer/Footer';
-import {  Route, Router, Switch } from 'react-router';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
 
 function App() {
 

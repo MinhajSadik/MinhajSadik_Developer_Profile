@@ -21,10 +21,11 @@ function App() {
   return (<>
     
     <Router>
+      <Header />
       <Switch>
 
         <Route path="/">
-          <Header/>
+          <Intro/>
         </Route>
 
         <Route path="/header">

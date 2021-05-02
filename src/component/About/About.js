@@ -4,6 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import CV from '../../images/resume.pdf';
 import Minhaj from '../../images/minhaj.jpg';
+import { Link } from 'react-router-dom';
 
 
 const About = () => {
@@ -25,7 +26,7 @@ const About = () => {
                 <div data-aos="flip-up" className="col-md-8 about-mySelf">
                     <p>Hello, I'm Minhaj Sadik,</p>
                     <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
-                    <a href="#skill-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">My Skill</button></a>
+                    <Link to="/skill-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">My Skill</button></Link>
                 </div>
             </div>
         </div>

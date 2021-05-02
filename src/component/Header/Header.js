@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import Logo from '../../images/logo.jpg';
 import CV from '../../images/resume.pdf';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -16,16 +17,16 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="#about-section">About<span className="sr-only">(current)</span></a>
+                            <Link className="nav-link" to="/about">About<span className="sr-only">(current)</span></Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#skill-section">Skill</a>
+                            <Link className="nav-link" to="/skill">Skill</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#project-section">Projects</a>
+                            <Link className="nav-link" to="/project">Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact-section">Contact</a>
+                            <Link className="nav-link" to="/contact">Contact</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="https://medium.com/@minhajsadik" target="_blank" rel="noopener noreferrer" >Blog</a>

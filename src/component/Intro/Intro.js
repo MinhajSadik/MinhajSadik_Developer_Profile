@@ -4,6 +4,7 @@ import Typical from 'react-typical';
 import { FaGithubSquare } from 'react-icons/fa';
 import { AiOutlineMedium, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 import CV from '../../images/resume.pdf';
+import { Link } from 'react-router-dom';
 
 
 
@@ -22,7 +23,7 @@ const Intro = () => {
                     />
                 </h3>
                 <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
-                <a href="#about-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></a>
+                <Link to="/about-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></Link>
                 <br />
                 <br />
                 <br />

@@ -16,19 +16,18 @@ const Skill = () => {
         { id: "08", skillType: 'web', skill: "Node.js", expertLevel: 65 },
         { id: "09", skillType: 'web', skill: "Express.js", expertLevel: 50},
         { id: "10", skillType: 'web', skill: "MongoDB", expertLevel: 90},
-        { id: "11", skillType: 'web', skill: "MySQL", expertLevel:  98 },
 
-        { id: "12", skillType: 'programming', skill: "JavaScript", expertLevel: 95 },
-        { id: "13", skillType: 'programming', skill: "Python", expertLevel: 75 },
-        { id: "14", skillType: 'programming', skill: "C++", expertLevel: 50 },
-        { id: "15", skillType: 'programming', skill: "C", expertLevel: 50 },
-        { id: "16", skillType: 'programming', skill: "PHP", expertLevel: 50 },
+        { id: "11", skillType: 'programming', skill: "JavaScript", expertLevel: 95 },
+        { id: "12", skillType: 'programming', skill: "Python", expertLevel: 75 },
+        { id: "13", skillType: 'programming', skill: "C++", expertLevel: 50 },
+        { id: "14", skillType: 'programming', skill: "C", expertLevel: 50 },
+        { id: "15", skillType: 'programming', skill: "PHP", expertLevel: 50 },
 
-        { id: "17", skillType: 'tools', skill: "Git", expertLevel: 95 },
-        { id: "18", skillType: 'tools', skill: "VSCode", expertLevel: 95 },
-        { id: "19", skillType: 'tools', skill: "Dev Tool", expertLevel: 90 },
-        { id: "20", skillType: 'tools', skill: "Netlify", expertLevel: 85 },
-        { id: "21", skillType: 'tools', skill: "Heroku", expertLevel: 70 },
+        { id: "16", skillType: 'tools', skill: "Git", expertLevel: 95 },
+        { id: "17", skillType: 'tools', skill: "VSCode", expertLevel: 95 },
+        { id: "18", skillType: 'tools', skill: "Dev Tool", expertLevel: 90 },
+        { id: "19", skillType: 'tools', skill: "Netlify", expertLevel: 85 },
+        { id: "20", skillType: 'tools', skill: "Heroku", expertLevel: 70 },
     ];
 
     const [getSkill, setGetSkill] = useState([]);

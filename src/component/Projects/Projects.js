@@ -12,27 +12,27 @@ const Projects = () => {
     const allProjects = [
         {
             id: '01', img: "" + creative, title: "Creative Agency", description: "A fullstack creative agency website.",
-            gitHub: "https://github.com/rabbism/creative-agency-clinte", liveLink: "https://creative-agency-200b7.web.app/"
+            gitHub: "https://github.com/MinhajSadik", liveLink: "https://creative-agency-200b7.web.app/"
         },
 
         {
             id: '02', img: "" + volunteer, title: "Volunteer-Network", description: "A fullstack hot volunteer network  website.",
-            gitHub: "https://github.com/rabbism/volunteer-network-client", liveLink: "https://volunteer-network-5b947.web.app/"
+            gitHub: "https://github.com/MinhajSadik", liveLink: "https://volunteer-network-5b947.web.app/"
         },
 
         {
             id: '03', img: "" + travel, title: "Travel Guru", description: "A fullstack travel guru website.",
-            gitHub: "https://github.com/rabbism/travel-guru", liveLink: "https://distracted-varahamihira-1c0a00.netlify.app/"
+            gitHub: "https://github.com/MinhajSadik", liveLink: "https://distracted-varahamihira-1c0a00.netlify.app/"
         },
 
         {
             id: '04', img: "" + hotGadgets, title: "Hot Gatgets", description: "A front-end E-commerce website.",
-            gitHub: "https://github.com/rabbism/hot-gadget", liveLink: "https://rabbism.github.io/hot-gadget/"
+            gitHub: "https://github.com/MinhajSadik", liveLink: "https://rabbism.github.io/hot-gadget/"
         },
 
         {
             id: '05', img: "" + pandaCommerce, title: "Panda Commerce", description: "A front-end Panda Commerce website.",
-            gitHub: "https://github.com/rabbism/panda-commerce-site", liveLink: "https://rabbism.github.io/panda-commerce-site/"
+            gitHub: "https://github.com/MinhajSadik", liveLink: "https://rabbism.github.io/panda-commerce-site/"
         }
     ]
 

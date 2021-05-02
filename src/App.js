@@ -21,48 +21,36 @@ function App() {
   return (<>
     
     <Router>
-      <Header />
+      <Header/>
       <Switch>
 
         <Route path="/">
           <Intro/>
         </Route>
 
-        <Route path="/header">
-          <Header />
-        </Route>
-
-        <Route path="/intro">
-          <Intro />
-        </Route>
-
         <Route path="/about">
-          <About />
+          <About/>
         </Route>
 
         <Route path="/skill">
           <Skill />
-        </Route>
-
-        <Route path="/loveToDo">
           <LoveToDo />
         </Route>
 
-
         <Route path="/projects">
-          <Projects />
+          <Projects/>
         </Route>
 
         <Route path="/contact">
-          <Contact />
+          <Contact/>
         </Route>
 
         <Route path="/footer">
-          <Footer />
+          <Footer/>
         </Route>
         
         <Route exact path="*">
-          <Header />
+          <Intro/>
         </Route>
 
       </Switch>

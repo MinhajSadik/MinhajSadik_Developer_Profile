@@ -13,27 +13,6 @@ const Intro = () => {
     return (
         <div className="container intro">
             <div id="intro-section" className="col-md-12">
-                
-                <Particles
-                    params={{
-                        "particles": {
-                            "number": {
-                                "value": 50
-                            },
-                            "size": {
-                                "value": 3
-                            }
-                        },
-                        "interactivity": {
-                            "events": {
-                                "onhover": {
-                                    "enable": true,
-                                    "mode": "repulse"
-                                }
-                            }
-                        }
-                    }} />
-                
                 <p className="text-success hello"></p>
                 <h1 className="name-color">Minhaj Sadik</h1>
                 <h3 className="font-weight-bolder text-success developer">
@@ -43,6 +22,25 @@ const Intro = () => {
                         loop={Infinity}
                         wrapper="b"
                     />
+                    <Particles
+                        params={{
+                            "particles": {
+                                "number": {
+                                    "value": 50
+                                },
+                                "size": {
+                                    "value": 3
+                                }
+                            },
+                            "interactivity": {
+                                "events": {
+                                    "onhover": {
+                                        "enable": true,
+                                        "mode": "repulse"
+                                    }
+                                }
+                            }
+                        }} />
                 </h3>
                 <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
                 <Link to="/about-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></Link>

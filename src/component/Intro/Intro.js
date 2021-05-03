@@ -14,7 +14,7 @@ const Intro = () => {
         <div className="container intro">
             <div id="intro-section" className="col-md-12">
                 <p className="text-success hello"></p>
-                <h1 className="name-color">Minhaj</h1>
+                <h1 className="name-color">Minhaj Sadik</h1>
                 <h3 className="font-weight-bolder text-success developer">
                     I am a
                         <Typical
@@ -27,65 +27,19 @@ const Intro = () => {
                 <Link to="/about-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></Link>
                 <Particles
                     params={{
-                        "fps_limit": 28,
                         "particles": {
-                            "collisions": {
-                                "enable": false
-                            },
                             "number": {
-                                "value": 200,
-                                "density": {
-                                    "enable": false
-                                }
+                                "value": 50
                             },
-                            "line_linked": {
-                                "enable": true,
-                                "distance": 30,
-                                "opacity": 0.4
-                            },
-                            "move": {
-                                "speed": 1
-                            },
-                            "opacity": {
-                                "anim": {
-                                    "enable": true,
-                                    "opacity_min": 0.05,
-                                    "speed": 1,
-                                    "sync": false
-                                },
-                                "value": 0.4
+                            "size": {
+                                "value": 3
                             }
                         },
-                        "polygon": {
-                            "enable": true,
-                            "scale": 0.5,
-                            "type": "inline",
-                            "move": {
-                                "radius": 10
-                            },
-                            "url": "/small-deer.2a0425af.svg",
-                            "inline": {
-                                "arrangement": "equidistant"
-                            },
-                            "draw": {
-                                "enable": true,
-                                "stroke": {
-                                    "color": "rgba(255, 255, 255, .2)"
-                                }
-                            }
-                        },
-                        "retina_detect": false,
                         "interactivity": {
                             "events": {
                                 "onhover": {
                                     "enable": true,
-                                    "mode": "bubble"
-                                }
-                            },
-                            "modes": {
-                                "bubble": {
-                                    "size": 6,
-                                    "distance": 40
+                                    "mode": "repulse"
                                 }
                             }
                         }

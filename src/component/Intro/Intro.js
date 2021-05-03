@@ -13,18 +13,7 @@ const Intro = () => {
     return (
         <div className="container intro">
             <div id="intro-section" className="col-md-12">
-                <p className="text-success hello"></p>
-                <h1 className="name-color">Minhaj Sadik</h1>
-                <h3 className="font-weight-bolder text-success developer">
-                    I am a
-                        <Typical
-                        steps={[' Web Developer', 3000, ' Designer', 3000, ' Programmer', 3000, ' Clever Learner', 3000]}
-                        loop={Infinity}
-                        wrapper="b"
-                    />
-                </h3>
-                <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
-                <Link to="/about-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></Link>
+                
                 <Particles
                     params={{
                         "particles": {
@@ -44,6 +33,19 @@ const Intro = () => {
                             }
                         }
                     }} />
+                
+                <p className="text-success hello"></p>
+                <h1 className="name-color">Minhaj Sadik</h1>
+                <h3 className="font-weight-bolder text-success developer">
+                    I am a
+                        <Typical
+                        steps={[' Web Developer', 3000, ' Designer', 3000, ' Programmer', 3000, ' Clever Learner', 3000]}
+                        loop={Infinity}
+                        wrapper="b"
+                    />
+                </h3>
+                <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
+                <Link to="/about-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></Link>
                 <br />
                 <br />
                 <br />

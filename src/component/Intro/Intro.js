@@ -14,7 +14,7 @@ const Intro = () => {
         <div className="container intro">
             <div id="intro-section" className="col-md-12">
                 <p className="text-success hello"></p>
-                <h1 className="name-color">Minhaj Sadik</h1>
+                <h1 className="name-color">Minhaj</h1>
                 <h3 className="font-weight-bolder text-success developer">
                     I am a
                         <Typical

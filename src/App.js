@@ -26,6 +26,11 @@ function App() {
         
         <Route exact path="/">
           <Intro />
+          <About />
+          <Skill />
+          <LoveToDo />
+          <Projects />
+          <Contact />
         </Route>
 
         <Route path="/intro">

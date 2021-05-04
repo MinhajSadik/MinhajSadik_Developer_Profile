@@ -12,26 +12,26 @@ import Particles from 'react-particles-js';
 const Intro = () => {
     return (
         <div className="container intro">
-            <Particles
-                params={{
-                    "particles": {
-                        "number": {
-                            "value": 30
+            <div id="intro-section" className="col-md-12">
+                <Particles
+                    params={{
+                        "particles": {
+                            "number": {
+                                "value": 30
+                            },
+                            "size": {
+                                "value": 2
+                            }
                         },
-                        "size": {
-                            "value": 2
-                        }
-                    },
-                    "interactivity": {
-                        "events": {
-                            "onhover": {
-                                "enable": true,
-                                "mode": "repulse"
+                        "interactivity": {
+                            "events": {
+                                "onhover": {
+                                    "enable": true,
+                                    "mode": "repulse"
+                                }
                             }
                         }
-                    }
-                }} />
-            <div id="intro-section" className="col-md-12">
+                    }} />
                 <p className="text-success hello"></p>
                 <h1 className="name-color">Minhaj Sadik</h1>
                 <h3 className="font-weight-bolder text-success developer">

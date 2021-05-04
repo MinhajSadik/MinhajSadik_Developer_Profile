@@ -14,6 +14,25 @@ const Intro = () => {
         <div className="container intro">
             <div id="intro-section" className="col-md-12">
                 <p className="text-success hello"></p>
+                <Particles
+                    params={{
+                        "particles": {
+                            "number": {
+                                "value": 50
+                            },
+                            "size": {
+                                "value": 3
+                            }
+                        },
+                        "interactivity": {
+                            "events": {
+                                "onhover": {
+                                    "enable": true,
+                                    "mode": "repulse"
+                                }
+                            }
+                        }
+                    }} />
                 <h1 className="name-color">Minhaj Sadik</h1>
                 <h3 className="font-weight-bolder text-success developer">
                     I am a

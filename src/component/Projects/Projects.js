@@ -22,7 +22,7 @@ const Projects = () => {
         },
 
         {
-            id: '03', img: "" + Urban, title: "Urban Riders", description: "A  Dynamic And Fully Ggoogle GithubAuthorized Website.",
+            id: '03', img: "" + Urban, title: "Urban Riders", description: "A  Dynamic And Fully Authorized Website.",
             gitHub: "https://github.com/MinhajSadik/React-Urban-Riders", liveLink: "https://google-authorization-urban-riders.netlify.app/"
         },
 
@@ -37,7 +37,7 @@ const Projects = () => {
         },
 
         {
-            id: '05', img: "" + Team, title: "Football Team Selectors", description: "A React-Router Football Leauge Team Selector Websites.",
+            id: '05', img: "" + Team, title: "Football Team Selectors", description: "A React-Router Football Leauge Team Selector Under Router Websites.",
             gitHub: "https://github.com/MinhajSadik/Football-League-Router", liveLink: "https://football-league-router.netlify.app/"
         }
     ]

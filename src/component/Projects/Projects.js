@@ -18,7 +18,7 @@ const Projects = () => {
 
         {
             id: '02', img: "" + Ema, title: "Ema-Jhon Simple", description: "A Full-Stack Ema-Jhon Simple  Website.",
-            gitHub: "https://github.com/MinhajSadik/React-Ema-Jhon-Simple", liveLink: "https://full-stack-ema-jhon-simple.netlify.app/ "
+            gitHub: "https://github.com/MinhajSadik/React-Ema-Jhon-Simple", liveLink: "https://full-stack-ema-jhon-simple.netlify.app/"
         },
 
         {

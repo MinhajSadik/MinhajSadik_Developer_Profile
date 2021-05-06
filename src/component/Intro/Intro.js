@@ -23,7 +23,7 @@ const Intro = () => {
                         loop={Infinity}
                         wrapper='b'
                     />
-                    <Particles
+                    <Particles style={{ width: '50%', height: '50%' }}
                         params={{
                             "particles": {
                                 "number": {

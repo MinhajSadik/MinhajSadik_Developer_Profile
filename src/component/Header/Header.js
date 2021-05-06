@@ -36,10 +36,9 @@ const Header = () => {
                     <a href={CV} download="Resume"><button className="btn btn-outline-success my-2 my-sm-0" >Get Resume</button></a>
                 </div>
             </div>
-            <div className='marquee'>
-                <Marquee>
-                    Are You Developer, While You Are Developer You Can Understand. I Want to talk about my website features. It's My Portfolio Website. I'm Also Update Regular On My Website. Now Here Is Feature is available (JSX, React.js, JavaScript, React-Router, React-Form-Hook, Material-UI, React-Bootstrap, *Simple Node.js*) You Can Route On My Website) Future Update: Firebase All Authentication. Convert This Website Next.js And Add Node.js Express.js Backend System Working            </Marquee>
-            </div>
+                <Marquee className='marquee'>
+                    Are You Developer, While You Are Developer You Can Understand. I Want to talk about my website features. It's My Portfolio Website. I'm Also Update Regular On My Website. Now Here Is Feature is available (JSX, React.js, JavaScript, React-Router, React-Form-Hook, Material-UI, React-Bootstrap, *Simple Node.js*) You Can Route On My Website) Future Update: Firebase All Authentication. Convert This Website Next.js And Node.js Add Express.js Backend System Working
+                </Marquee>
         </nav >
         
     );

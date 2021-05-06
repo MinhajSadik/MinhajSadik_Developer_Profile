@@ -11,7 +11,7 @@ const Footer = () => {
                         <small>Copyright &copy; 2021 ALL Rights Reserved</small>
                         <div className="d-flex align-items-center dev">
                             <a href="https://github.com/MinhajSadik" target="_blank" rel="noopener noreferrer" ><GoRepoForked /></a>
-                            <h4> <span className="heart">&hearts;</span> Developed BY ME</h4>
+                            <h4> <span className="heart">&hearts;</span> Developed BY Minhaj</h4>
                         </div>
                     </div>
                 </div>

@@ -14,13 +14,17 @@ body{
 }
 
 .name-color{
+    margin-top: 2%;
     color: white;
     font-size: 74px;
     margin: 0px 0px 15px 0px;
+    text-align: center;
+
 }
 
 .developer{
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .btn{

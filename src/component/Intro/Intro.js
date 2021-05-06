@@ -5,7 +5,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 import { AiOutlineMedium, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 import CV from '../../images/resume.pdf';
 import { Link } from 'react-router-dom';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 
 
 
@@ -13,42 +13,23 @@ const Intro = () => {
     return (
         <div className="container intro">
             <div id="intro-section" className="col-md-12">
-                <Particles
-                    params={{
-                        "particles": {
-                            "number": {
-                                "value": 30
-                            },
-                            "size": {
-                                "value": 2
-                            }
-                        },
-                        "interactivity": {
-                            "events": {
-                                "onhover": {
-                                    "enable": true,
-                                    "mode": "repulse"
-                                }
-                            }
-                        }
-                    }} />
                 <p className="text-success hello"></p>
                 <h1 className="name-color">Minhaj Sadik</h1>
                 <h3 className="font-weight-bolder text-success developer">
-                    I am a
+                    
                         <Typical
-                        steps={[' Web Developer', 3000, ' Designer', 3000, ' Programmer', 3000, ' Clever Learner', 3000]}
+                        steps={[' FULL-STACK Developer', 3000, ' Creative Designer', 3000, ' Creative Developer', 3000, ' Competitive Programmer', 3000]}
                         loop={Infinity}
-                        wrapper="b"
+                        wrapper='b'
                     />
-                    <Particles
+                    {/* <Particles 
                         params={{
                             "particles": {
                                 "number": {
-                                    "value": 50
+                                    "value": 30
                                 },
                                 "size": {
-                                    "value": 3
+                                    "value": 2
                                 }
                             },
                             "interactivity": {
@@ -59,7 +40,7 @@ const Intro = () => {
                                     }
                                 }
                             }
-                        }} />
+                        }} /> */}
                 </h3>
                 <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
                 <Link to="/about-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></Link>

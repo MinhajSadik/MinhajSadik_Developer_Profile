@@ -1,9 +1,9 @@
 .about{
-    margin-top: 4%;
+    margin-top: 10%;
 }
 
 .img-size img{
-    margin-top: 15%;
+    margin-top: 20%;
     width: 300px;
     filter: grayscale(1);
     transition: all 1s;

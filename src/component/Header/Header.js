@@ -3,7 +3,7 @@ import './Header.css';
 import Logo from '../../images/logo.jpg';
 import CV from '../../images/resume.pdf';
 import { Link } from 'react-router-dom';
-
+import Marquee from "react-fast-marquee";
 
 const Header = () => {
 
@@ -36,7 +36,13 @@ const Header = () => {
                     <a href={CV} download="Resume"><button className="btn btn-outline-success my-2 my-sm-0" >Get Resume</button></a>
                 </div>
             </div>
+            <div className='marquee'>
+                <Marquee>
+                    Minhaj Sadik Akjon karap manus kew or kase asbe na karon or ceye karap r hote pare na ami jani joto tuku je o manus karap sate sate or behaivor o karap jeno akta karap manus er package
+            </Marquee>
+            </div>
         </nav >
+        
     );
 };
 

@@ -5,7 +5,8 @@ import { FaGithubSquare } from 'react-icons/fa';
 import { AiOutlineMedium, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 import CV from '../../images/resume.pdf';
 import { Link } from 'react-router-dom';
-// import Particles from 'react-particles-js';
+import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js'; 
 
 
 
@@ -22,14 +23,14 @@ const Intro = () => {
                         loop={Infinity}
                         wrapper='b'
                     />
-                    {/* <Particles 
+                    <Particles
                         params={{
                             "particles": {
                                 "number": {
-                                    "value": 30
+                                    "value": 10
                                 },
                                 "size": {
-                                    "value": 2
+                                    "value": 1
                                 }
                             },
                             "interactivity": {
@@ -40,7 +41,7 @@ const Intro = () => {
                                     }
                                 }
                             }
-                        }} /> */}
+                        }} />
                 </h3>
                 <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
                 <Link to="/about-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></Link>

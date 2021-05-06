@@ -3,7 +3,7 @@ import './Header.css';
 import Logo from '../../images/logo.jpg';
 import CV from '../../images/resume.pdf';
 import { Link } from 'react-router-dom';
-// import Marquee from "react-fast-marquee";
+import Marquee from "react-fast-marquee";
 
 const Header = () => {
 
@@ -37,9 +37,8 @@ const Header = () => {
                 </div>
             </div>
             <div className='marquee'>
-                {/* <Marquee>
-                    Minhaj Sadik Akjon karap manus kew or kase asbe na karon or ceye karap r hote pare na ami jani joto tuku je o manus karap sate sate or behaivor o karap jeno akta karap manus er package
-            </Marquee> */}
+                <Marquee>
+                    Are You Developer, While You Are Developer You Can Understand. I Want to talk about my website features. It's My Portfolio Website. I'm Also Update Regular On My Website. Now Here Is Feature is available (JSX, React.js, JavaScript, React-Router, React-Form-Hook, Material-UI, React-Bootstrap, *Simple Node.js*) You Can Route On My Website) Future Update: Firebase All Authentication. Convert This Website Next.js And Add Node.js Express.js Backend System Working            </Marquee>
             </div>
         </nav >
         

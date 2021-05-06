@@ -27,10 +27,10 @@ const Intro = () => {
                         params={{
                             "particles": {
                                 "number": {
-                                    "value": 10
+                                    "value": 50
                                 },
                                 "size": {
-                                    "value": 1
+                                    "value": 4
                                 }
                             },
                             "interactivity": {

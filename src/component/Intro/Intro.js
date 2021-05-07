@@ -16,9 +16,9 @@ const Intro = () => {
                 <p className="text-success hello"></p>
                 <h1 className="name-color">Minhaj Sadik</h1>
                 <h3 className="font-weight-bolder text-success developer">
-                    
+                    I Am a
                         <Typical
-                        steps={[' FULL-STACK Developer', 3000, ' Creative Designer', 3000, ' Creative Developer', 3000, ' Competitive Programmer', 3000]}
+                        steps={[' Full-Stack', 3000, ' Creative Designer', 3000, ' Developer', 3000, ' Programmer', 3000, ' Blogger', 3000, ' Clever Learner', 3000,]}
                         loop={Infinity}
                         wrapper='b'
                     />

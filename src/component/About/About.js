@@ -28,7 +28,7 @@ const About = () => {
                     <div className="iframe">
                         <iframe src="https://docs.google.com/document/d/e/2PACX-1vTdFQGC_v49mdt6m37odwaYx96zND4RkAU6QJOpQF_QLRD42rYq96sfpBv5YeeoUS5IneQWR4DaQ_RL/pub?embedded=true"></iframe>
                     </div>
-                    <p>Hello, I'm Minhaj Sadik,</p>
+                    {/* <p>Hello👋 I'm Minhaj Sadik,</p> */}
                     <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
                     <Link to="/skill-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">My Skill</button></Link>
                 </div>

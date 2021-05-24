@@ -13,8 +13,8 @@ const Intro = () => {
     return (
         <div className="container intro">
             <div id="intro-section" className="col-md-12">
-                <p className="text-success hello">Hello</p>
-                <h1 className="name-color">👋Minhaj Sadik</h1>
+                <p className="text-success hello"></p>
+                <h1 className="name-color">Hello👋Minhaj Sadik</h1>
                 <h3 className="font-weight-bolder text-success developer">
                     I Am
                         <Typical

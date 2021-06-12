@@ -12,8 +12,6 @@ import LoveToDo from './component/LoveToDo/LoveToDo';
 import Projects from './component/Projects/Projects';
 import Skill from './component/Skill/Skill';
 
-
-
 function App() {
 
   return (<>

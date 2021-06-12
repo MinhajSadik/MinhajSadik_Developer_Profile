@@ -1,4 +1,5 @@
 import React from 'react';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import {
   BrowserRouter as Router, Route, Switch
 } from "react-router-dom";
@@ -57,7 +58,10 @@ function App() {
       </Switch>
       <Footer/>
     </Router>
-
+    <MessengerCustomerChat
+        pageId="<110110294633684>"
+        appId="<540562193743609>"
+    />
   </div>);
 }
 

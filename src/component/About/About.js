@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
-import React, { useEffect } from 'react';
-import './About.css';
 import Aos from "aos";
 import "aos/dist/aos.css";
-import CV from '../../images/resume.pdf';
-import Minhaj from '../../images/minhaj.jpg';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Minhaj from '../../images/minhaj.jpg';
+import CV from '../../images/resume.pdf';
+import './About.css';
 
 
 const About = () => {

@@ -14,7 +14,7 @@ import Skill from './component/Skill/Skill';
 
 function App() {
 
-  return (<>
+  return (<div>
     
     <Router>
       <Header/>
@@ -58,7 +58,7 @@ function App() {
       <Footer/>
     </Router>
 
-  </>);
+  </div>);
 }
 
 export default App;

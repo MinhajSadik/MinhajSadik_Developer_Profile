@@ -17,9 +17,7 @@ const Footer = () => {
                         <MessengerCustomerChat
                             pageId="<110110294633684>"
                             appId="<540562193743609>"
-                            htmlRef="<REF_STRING>"
                         />
-                        
                         </div>
                     </div>
                 </div>

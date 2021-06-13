@@ -19,6 +19,10 @@ function App() {
     
     <Router>
       <Header/>
+      <MessengerCustomerChat
+        pageId="110110294633684"
+        appId="540562193743609"
+    />
       <Switch>
         
         <Route exact path="/">
@@ -58,10 +62,7 @@ function App() {
       </Switch>
       <Footer/>
     </Router>
-    <MessengerCustomerChat
-        pageId="110110294633684"
-        appId="540562193743609"
-    />
+
   </div>);
 }
 

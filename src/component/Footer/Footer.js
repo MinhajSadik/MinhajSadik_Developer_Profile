@@ -14,8 +14,8 @@ const Footer = () => {
                             <h4> <span className="heart">&hearts;</span> Developed BY Minhaj</h4>
                             
                             <MessengerCustomerChat
-                            pageId="<110110294633684>"
-                            appId="<540562193743609>"
+                            pageId="110110294633684"
+                            appId="540562193743609"
                         />
                         </div>
                     </div>

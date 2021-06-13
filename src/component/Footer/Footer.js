@@ -1,6 +1,6 @@
 import React from 'react';
 import { GoRepoForked } from 'react-icons/go';
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+// import MessengerCustomerChat from 'react-messenger-customer-chat';
 import './Footer.css';
 const Footer = () => {
     return (
@@ -13,10 +13,10 @@ const Footer = () => {
                             <a href="https://github.com/MinhajSadik" target="_blank" rel="noopener noreferrer" ><GoRepoForked /></a>
                             <h4> <span className="heart">&hearts;</span> Developed BY Minhaj</h4>
                             
-                            <MessengerCustomerChat
+                            {/* <MessengerCustomerChat
                             pageId="110110294633684"
                             appId="540562193743609"
-                        />
+                        /> */}
                         </div>
                     </div>
                 </div>

@@ -1,9 +1,9 @@
 import React from 'react';
-import './Header.css';
+import Marquee from "react-fast-marquee";
+import { Link } from 'react-router-dom';
 import Logo from '../../images/logo.jpg';
 import CV from '../../images/resume.pdf';
-import { Link } from 'react-router-dom';
-import Marquee from "react-fast-marquee";
+import './Header.css';
 
 const Header = () => {
 
@@ -37,7 +37,7 @@ const Header = () => {
                 </div>
             </div>
                 <Marquee className='marquee'>
-                    Are You Developer, While You Are Developer You Can Understand. I Want to talk about my website features. It's My Portfolio Website. I'm Also Update Regular On My Website. Now Here Is Feature is available (JSX, React.js, JavaScript, React-Router, React-Form-Hook, Material-UI, React-Bootstrap, *Simple Node.js*) You Can Route On My Website) Future Update: Firebase All Authentication. Convert This Website Next.js And Node.js Add Express.js Backend System Working
+                    Are You Developer, if You're Developer You Can Understand. I Want to talk about my website features. It's My Portfolio Website. I'm Also Update Regular On My Website. Now Here Is Feature is available (JSX, React.js, JavaScript, React-Router, React-Form-Hook, Material-UI, React-Bootstrap, *Simple Node.js*) You Can Route On My Website) Future Update: Firebase All Authentication. Convert This Website Next.js And Node.js Add Express.js Backend System Working
                 </Marquee>
         </nav >
         

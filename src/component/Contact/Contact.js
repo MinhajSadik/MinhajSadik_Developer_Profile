@@ -1,9 +1,10 @@
+import React, { useEffect, useState } from 'react';
+import './Contact.css';
+import { useForm } from "react-hook-form";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import React, { useEffect, useState } from 'react';
-import { useForm } from "react-hook-form";
 import { IoMdCloudDone } from 'react-icons/io';
-import './Contact.css';
+
 
 
 const Contact = () => {
@@ -17,7 +18,7 @@ const Contact = () => {
 
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => {
-        fetch('http://react-portfolio-resume.netlify.app/getGmail', {
+        fetch('https://react-portfolio-website.Netlify.app/getGmail', {
             method: 'POST',
             body: JSON.stringify(data),
             headers: {
@@ -42,7 +43,7 @@ const Contact = () => {
                     <p className="d-flex align-items-center">Contact</p>
                 </div>
             </div>
-        <div data-aos="flip-left" className="row d-flex justify-content-center ">
+            <div data-aos="flip-left" className="row d-flex justify-content-center ">
                 {
                     success ?
                         <div className="col-12 col-sm-12 col-md-6">

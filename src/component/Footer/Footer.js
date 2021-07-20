@@ -1,7 +1,6 @@
 import React from 'react';
-import { GoRepoForked } from 'react-icons/go';
-import MessengerCustomerChat from 'react-messenger-customer-chat';
 import './Footer.css';
+import { GoRepoForked } from 'react-icons/go';
 
 const Footer = () => {
     return (
@@ -13,13 +12,6 @@ const Footer = () => {
                         <div className="d-flex align-items-center dev">
                             <a href="https://github.com/MinhajSadik" target="_blank" rel="noopener noreferrer" ><GoRepoForked /></a>
                             <h4> <span className="heart">&hearts;</span> Developed BY Minhaj</h4>
-
-                        <MessengerCustomerChat
-                            pageId="<110110294633684>"
-                            appId="<540562193743609>"
-                            htmlRef="<REF_STRING>"
-                        />
-                        
                         </div>
                     </div>
                 </div>

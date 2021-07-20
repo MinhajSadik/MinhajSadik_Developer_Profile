@@ -1,10 +1,10 @@
 import React from 'react';
-import './Intro.css';
-import Typical from 'react-typical';
+import { AiFillLinkedin, AiFillYoutube, AiOutlineMedium } from 'react-icons/ai';
 import { FaGithubSquare } from 'react-icons/fa';
-import { AiOutlineMedium, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
-import CV from '../../images/resume.pdf';
 import { Link } from 'react-router-dom';
+import Typical from 'react-typical';
+import CV from '../../images/resume.pdf';
+import './Intro.css';
 // import Particles from 'react-particles-js'; 
 
 
@@ -14,7 +14,7 @@ const Intro = () => {
         <div className="container intro">
             <div id="intro-section" className="col-md-12">
                 <p className="text-success hello"></p>
-                <h1 className="name-color">Hello👋Minhaj Sadik</h1>
+                <h1 className="name-color">Hello 👋 Minhaj Sadik</h1>
                 <h3 className="font-weight-bolder text-success developer">
                     I Am
                         <Typical

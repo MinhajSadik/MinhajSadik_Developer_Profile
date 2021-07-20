@@ -1,4 +1,5 @@
 import React from 'react';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import {
   BrowserRouter as Router, Route, Switch
 } from "react-router-dom";
@@ -12,10 +13,15 @@ import LoveToDo from './component/LoveToDo/LoveToDo';
 import Projects from './component/Projects/Projects';
 import Skill from './component/Skill/Skill';
 
+
 function App() {
 
   return (<div>
-    
+     <MessengerCustomerChat
+        pageId="<110110294633684>"
+        appId="<540562193743609>"
+        htmlRef="<REF_STRING>"
+      />
     <Router>
       <Header/>
       <Switch>

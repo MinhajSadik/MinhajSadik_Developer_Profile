@@ -1,25 +1,27 @@
 import React from 'react';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
+import {
+  BrowserRouter as Router, Route, Switch
+} from "react-router-dom";
 import './App.css';
-import Header from './component/Header/Header';
-import Intro from './component/Intro/Intro';
 import About from './component/About/About';
-import Skill from './component/Skill/Skill';
-import LoveToDo from './component/LoveToDo/LoveToDo';
-import Projects from './component/Projects/Projects';
 import Contact from './component/Contact/Contact';
 import Footer from './component/Footer/Footer';
-
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import Header from './component/Header/Header';
+import Intro from './component/Intro/Intro';
+import LoveToDo from './component/LoveToDo/LoveToDo';
+import Projects from './component/Projects/Projects';
+import Skill from './component/Skill/Skill';
 
 
 function App() {
 
-  return (<>
-    
+  return (<div>
+     <MessengerCustomerChat
+        pageId="<110110294633684>"
+        appId="<540562193743609>"
+        htmlRef="<REF_STRING>"
+      />
     <Router>
       <Header/>
       <Switch>
@@ -62,7 +64,7 @@ function App() {
       <Footer/>
     </Router>
 
-  </>);
+  </div>);
 }
 
 export default App;

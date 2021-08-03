@@ -8,6 +8,7 @@
 .bg {
   background-color: black;
 }
+<<<<<<< HEAD
 
 .marquee {
   background-color: white;
@@ -26,3 +27,23 @@
   list-style-position: fixed;
   /* position: fixed; */
 }
+=======
+/* 
+.navbar-collapse ul > li{
+    margin-left :30px;
+} */
+.bg{
+    background-color: black;
+    
+}
+
+.marquee{
+    background-color: white;
+    color: black;
+    margin-left: 100px;
+}
+.btn-outline{
+    height: 60px;
+    margin-left: 150px;
+}
+>>>>>>> 5b2a32befce363457dce65181de888055866d632

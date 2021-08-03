@@ -1,9 +1,11 @@
 import React from 'react';
-import './Intro.css';
-import Typical from 'react-typical';
+import { AiFillLinkedin, AiFillYoutube, AiOutlineMedium } from 'react-icons/ai';
 import { FaGithubSquare } from 'react-icons/fa';
-import { AiOutlineMedium, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
+import Typical from 'react-typical';
 import CV from '../../images/resume.pdf';
+import './Intro.css';
+// import Particles from 'react-particles-js'; 
 
 
 
@@ -11,18 +13,16 @@ const Intro = () => {
     return (
         <div className="container intro">
             <div id="intro-section" className="col-md-12">
-                <p className="text-success hello">Hello! I am</p>
-                <h1 className="name-color">S M AL RABBI</h1>
-                <h3 className="font-weight-bolder text-success developer">
-                    I am a
+                <p className="text-success hello"></p>
+                <h1 className="name-color">Hello 👋 Minhaj Sadik</h1>
+                <h1 className="font-weight-bolder text-success developer">
+                    Just a
                         <Typical
-                        steps={[' Web Developer', 3000, ' Designer', 3000, ' Programmer', 3000, ' YouTuber', 3000]}
-                        loop={Infinity}
-                        wrapper="b"
-                    />
-                </h3>
-                <a href={CV} download="Al Rabbi CV"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
-                <a href="#about-section"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></a>
+                        steps={[' Programmer', 3000, ' Developer', 3000, ' Designer', 3000, '  ', 3000, ' Blogger', 3000, ' Clever Learner', 3000,]} loop={Infinity} wrapper='b' />
+                </h1>
+                <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
+                <Link to="/about"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></Link>
+                
                 <br />
                 <br />
                 <br />
@@ -35,10 +35,10 @@ const Intro = () => {
                 </div>
 
                 <div className="icon">
-                    <a className="icon2" href="https://github.com/rabbism" target="_blank" rel="noopener noreferrer"><FaGithubSquare /></a>
-                    <a className="icon2" href="https://www.linkedin.com/in/s-m-al-rabbi-1976b11b1/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
-                    <a className="icon2" href="https://medium.com/" target="_blank" rel="noopener noreferrer"><AiOutlineMedium /></a>
-                    <a className="icon2" href="https://www.youtube.com/channel/UCzoklnSwNmq_0ldHX6q-L0Q?view_as=subscriber" target="_blank" rel="noopener noreferrer"><AiFillYoutube /></a>
+                    <a className="icon2" href="https://github.com/MinhajSadik" target="_blank" rel="noopener noreferrer"><FaGithubSquare /></a>
+                    <a className="icon2" href="https://www.linkedin.com/in/MinhajSadik" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
+                    <a className="icon2" href="https://medium.com/@minhajsadik" target="_blank" rel="noopener noreferrer"><AiOutlineMedium /></a>
+                    <a className="icon2" href="https://www.youtube.com/channel/UC6I0U9NjTTQQGpKI73_mNXQ" target="_blank" rel="noopener noreferrer"><AiFillYoutube /></a>
                 </div>
             </div>
         </div>
@@ -46,3 +46,41 @@ const Intro = () => {
 };
 
 export default Intro;
+
+
+// eslint-disable-next-line no-lone-blocks
+{/* <Particles style={{ width: '50%', height: '50%' }}
+                        params={{
+                            "particles": {
+                                "number": {
+                                    "value": 160,
+                                    "density": {
+                                        "enable": false
+                                    }
+                                },
+                                "size": {
+                                    "value": 10,
+                                    "random": true
+                                },
+                                "move": {
+                                    "direction": "bottom",
+                                    "out_mode": "out"
+                                },
+                                "line_linked": {
+                                    "enable": false
+                                }
+                            },
+                            "interactivity": {
+                                "events": {
+                                    "onclick": {
+                                        "enable": true,
+                                        "mode": "remove"
+                                    }
+                                },
+                                "modes": {
+                                    "remove": {
+                                        "particles_nb": 10
+                                    }
+                                }
+                            }
+                        }} /> */}

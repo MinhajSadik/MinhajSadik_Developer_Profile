@@ -1,7 +1,28 @@
-.navbar-brand img{
-    width: 40px;
+.navbar-brand img {
+  width: 40px;
+}
+/* 
+.navbar-collapse ul > li{
+    margin-left :30px;
+} */
+.bg {
+  background-color: black;
 }
 
-.bg{
-    background-color: #182335;
+.marquee {
+  background-color: white;
+  color: black;
+  margin-left: 100px;
+}
+.btn-outline {
+  height: 60px;
+  margin-left: 150px;
+}
+/* .navbar-toggler {
+  border: none;
+} */
+
+.navbar {
+  list-style-position: fixed;
+  /* position: fixed; */
 }

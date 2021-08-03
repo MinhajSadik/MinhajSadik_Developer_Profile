@@ -22,10 +22,7 @@ function App() {
         appId="<540562193743609>"
         htmlRef="<REF_STRING>"
       />
-<<<<<<< HEAD
       
-=======
->>>>>>> 5b2a32befce363457dce65181de888055866d632
     <Router>
       <Header/>
       <Switch>

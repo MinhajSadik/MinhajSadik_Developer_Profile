@@ -15,7 +15,6 @@ const Intro = () => {
             <div id="intro-section" className="col-md-12">
                 <p className="text-success hello"></p>
                 <h1 className="name-color">Hello 👋 Minhaj Sadik</h1>
-<<<<<<< HEAD
                 <h1 className="font-weight-bolder text-success developer">
                     Just a
                         <Typical
@@ -24,7 +23,6 @@ const Intro = () => {
                 <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
                 <Link to="/about"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></Link>
                 
-=======
                 <h3 className="font-weight-bolder text-success developer">
                     I Am
                         <Typical
@@ -35,7 +33,6 @@ const Intro = () => {
              </h3>
                 <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
                 <Link to="/about"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></Link>
->>>>>>> 5b2a32befce363457dce65181de888055866d632
                 <br />
                 <br />
                 <br />

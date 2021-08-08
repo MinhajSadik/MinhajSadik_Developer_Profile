@@ -6,9 +6,9 @@ import './Skill.css';
 const Skill = () => {
 
     const allSkill = [
-        { id: "01", skillType: 'web', skill: "HTML", expertLevel: 95 },
-        { id: "02", skillType: 'web', skill: "CSS", expertLevel: 95 },
-        { id: "03", skillType: 'web', skill: "SASS", expertLevel: 95 },
+        { id: "01", skillType: 'web', skill: "HTML", expertLevel: 90 },
+        { id: "02", skillType: 'web', skill: "CSS", expertLevel: 90 },
+        { id: "03", skillType: 'web', skill: "SASS", expertLevel: 90 },
         { id: "04", skillType: 'web', skill: "Meterial-UI", expertLevel: 90 },
         { id: "05", skillType: 'web', skill: "React.js", expertLevel: 90 },
         { id: "06", skillType: 'web', skill: "Next.js", expertLevel: 75 },
@@ -17,15 +17,15 @@ const Skill = () => {
         { id: "09", skillType: 'web', skill: "Express.js", expertLevel: 70},
         { id: "10", skillType: 'web', skill: "MongoDB", expertLevel: 70},
 
-        { id: "11", skillType: 'programming', skill: "JavaScript", expertLevel: 95 },
-        { id: "12", skillType: 'programming', skill: "TypeScript", expertLevel: 75 },
+        { id: "11", skillType: 'programming', skill: "JavaScript", expertLevel: 90 },
+        { id: "12", skillType: 'programming', skill: "TypeScript", expertLevel: 80 },
         { id: "15", skillType: 'programming', skill: "Python", expertLevel: 70 },
         { id: "13", skillType: 'programming', skill: "C", expertLevel: 50 },
         { id: "14", skillType: 'programming', skill: "C++", expertLevel: 50 },
 
         { id: "16", skillType: 'tools', skill: "Git", expertLevel: 85 },
-        { id: "16", skillType: 'tools', skill: "GitHub", expertLevel: 95 },
-        { id: "17", skillType: 'tools', skill: "VSCode", expertLevel: 95 },
+        { id: "16", skillType: 'tools', skill: "GitHub", expertLevel: 90 },
+        { id: "17", skillType: 'tools', skill: "VSCode", expertLevel: 90 },
         { id: "18", skillType: 'tools', skill: "Dev Tool", expertLevel: 90 },
         { id: "19", skillType: 'tools', skill: "Netlify", expertLevel: 85 },
         { id: "20", skillType: 'tools', skill: "Heroku", expertLevel: 70 },

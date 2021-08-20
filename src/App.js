@@ -16,7 +16,8 @@ import Skill from './component/Skill/Skill';
 
 function App() {
 
-  return (<div>
+  return (
+  <div>
      <MessengerCustomerChat
         pageId="<110110294633684>"
         appId="<540562193743609>"
@@ -64,7 +65,8 @@ function App() {
       <Footer/>
     </Router>
 
-  </div>);
+  </div>
+  );
 }
 
 export default App;

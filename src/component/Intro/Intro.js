@@ -15,14 +15,6 @@ const Intro = () => {
             <div id="intro-section" className="col-md-12">
                 <p className="text-success hello"></p>
                 <h1 className="name-color">Hello 👋 Minhaj Sadik</h1>
-            {/* <h1 className="font-weight-bolder text-success developer">
-                    Just a
-                        <Typical
-                        steps={[' Programmer', 3000, ' Developer', 3000, ' Designer', 3000, '  ', 3000, ' Blogger', 3000, ' Clever Learner', 3000,]} loop={Infinity} wrapper='b' />
-            </h1>
-                <a href={CV} download="Resume"><button className="btn btn-success my-2 my-sm-0 btn-style">Get Resume</button></a>
-                <Link to="/about"><button className="btn btn-outline-success my-2 my-sm-0 btn-style">About Me</button></Link> */}
-                
             <h1 className="font-weight-bolder text-success developer">
                     I Am
                         <Typical

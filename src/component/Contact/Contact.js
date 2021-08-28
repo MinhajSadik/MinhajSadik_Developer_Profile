@@ -18,6 +18,7 @@ const Contact = () => {
 
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => {
+        
         fetch('https://react-portfolio-website.Netlify.app/getGmail', {
             method: 'POST',
             body: JSON.stringify(data),

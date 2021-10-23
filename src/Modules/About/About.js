@@ -59,7 +59,7 @@ const About = () => {
               </ParallaxLayer>
 
               <ParallaxLayer
-                sticky={{ start: 1, end: 3 }}
+                sticky={{ start: 2, end: 3 }}
                 style={{ ...alignCenter, justifyContent: "flex-start" }}
               >
                 <div className={`${styles.card} ${styles.sticky}`}>

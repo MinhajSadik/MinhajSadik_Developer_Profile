@@ -15,7 +15,7 @@ const LoveToDo = () => {
     <div className="container loveToDo">
       <div className="back-line d-flex align-items-center skill-title">
         <div className="front-box d-flex align-items-center">
-          <p className="d-flex align-items-center">LoveToDo</p>
+          <p className="d-flex align-items-center">Love ToDo</p>
         </div>
       </div>
       <div className="row">

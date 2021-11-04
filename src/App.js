@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import About from "./Modules/About/About";
-import Contact from "./Modules/Contact/Contact";
-import Footer from "./Modules/Footer/Footer";
-import Header from "./Modules/Header/Header";
-import Intro from "./Modules/Intro/Intro";
-import LoveToDo from "./Modules/LoveToDo/LoveToDo";
-import Projects from "./Modules/Projects/Projects";
-import Skill from "./Modules/Skill/Skill";
+import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import Intro from "./Components/Intro/Intro";
+import LoveToDo from "./Components/LoveToDo/LoveToDo";
+import Projects from "./Components/Projects/Projects";
+import Skill from "./Components/Skill/Skill";
 
 function App() {
   return (

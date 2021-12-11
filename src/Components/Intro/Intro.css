@@ -5,10 +5,9 @@ body {
   overflow-x: hidden;
 }
 
-/* 
-.intro{
-    margin-top: 20%;
-} */
+.intro {
+  margin-top: 10%;
+}
 
 .hello {
   font-size: 24px;

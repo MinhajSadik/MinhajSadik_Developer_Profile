@@ -1,19 +1,17 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Minhaj from "../../images/minhaj.jpg";
 import CV from "../../images/resume.pdf";
-import styles from "./../../styles.module.css";
 import "./About.css";
 
 const About = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
-  const alignCenter = { display: "flex", alignItems: "center" };
+  // const alignCenter = { display: "flex", alignItems: "center" };
 
   return (
     <div id="about-section" className="container about">
@@ -32,7 +30,7 @@ const About = () => {
               marginBottom: "15px",
             }}
           >
-            Hello👋 I'M MINHAJ SADIK
+            Hello👋 I'M [MINHAJ SADIK]
           </h3>
           <a href={CV} download="Resume">
             <button className="btn btn-success my-2 my-sm-0 btn-style">
@@ -46,7 +44,17 @@ const About = () => {
           </Link>
         </div>
         <div data-aos="flip-up" className="col-md-6 about-mySelf">
-          <div>
+          <h3>
+            Hello! 👋 I'm [Minhaj Sadik], a passionate Software Engineer. I
+            develop web applications, mobile applications, and desktop
+            applications. I Can Design & Build Any Complex Software, Website,
+            Apps. I Can Handle Algorithms, Data-Structure For Better Performance
+            and every time I Write Efficient Code for Readability. My core skill
+            is based on JavaScript and I love to do most of the things using
+            JavaScript. I am available for any kind of job opportunity that
+            suits my interests.
+          </h3>
+          {/* <div>
             <div className={styles.background} />
 
             <Parallax pages={5}>
@@ -91,7 +99,7 @@ const About = () => {
                 </div>
               </ParallaxLayer>
             </Parallax>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

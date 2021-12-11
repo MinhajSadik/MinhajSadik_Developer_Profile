@@ -10,21 +10,24 @@ body {
 }
 
 .hello {
-  font-size: 24px;
+  /* font-size: 24px; */
   margin: 0;
+  color: white;
+  font-family: Fira Code;
+  text-align: center;
 }
 
 .name-color {
   margin-top: 2%;
   color: white;
-  font-size: 74px;
+  font-size: 70px;
   margin: 0px 0px 15px 0px;
   text-align: center;
   font-family: Fira-Code;
 }
 
 .developer {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   text-align: center;
   font-family: Fira-Code;
 }

@@ -11,17 +11,18 @@ const Intro = () => {
   return (
     <div className="container intro">
       <div id="intro-section" className="col-md-12">
-        <p className="text-success hello"></p>
-        <h1 className="name-color">Hello 👋 I'm [Minhaj Sadik]</h1>
-        <h1 className="font-weight-bolder text-white developer">
+        <h4 className="hello">Hello! 👋 I'm</h4>
+        <h1 className="name-color">[Minhaj Sadik]</h1>
+        <br />
+        <br />
+        <h2 className="font-weight-bolder text-white developer">
           i am a
           <Typical
             steps={[" Little Programmer", 3000, " Clever Learner", 3000]}
             loop={Infinity}
             wrapper="b"
           />
-        </h1>
-        <br />
+        </h2>
         <br />
         <br />
         <br />

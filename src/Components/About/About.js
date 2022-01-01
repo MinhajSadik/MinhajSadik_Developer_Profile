@@ -45,12 +45,12 @@ const About = () => {
         </div>
         <div data-aos="flip-up" className="col-md-6 about-mySelf">
           <h3>
-            Hello! 👋 I'm [Minhaj Sadik], a passionate Software Engineer. I
+            Hello! 👋 I'm [Minhaj Sadik], a passionate Software Engineer, i can
             develop web applications, mobile applications, and desktop
-            applications. I Can Design & Build Any Complex Software, Website,
-            Apps. I Can Handle Algorithms, Data-Structure For Better Performance
-            and every time I Write Efficient Code for Readability. My core skill
-            is based on JavaScript and I love to do most of the things using
+            applications. I can design & build any complex software, website. I
+            can handle Algorithms & Data-Structure for better performance and
+            every time I write efficient Code for readability. my core skill is
+            based on JavaScript and I love to do most of the things using
             JavaScript. I am available for any kind of job opportunity that
             suits my interests.
           </h3>

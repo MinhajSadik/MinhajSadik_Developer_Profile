@@ -17,7 +17,7 @@ const Intro = () => {
         <h2 className="font-weight-bolder text-white developer">
           I'm a
           <Typical
-            steps={[" Little Programmer", 3000, " Clever Learner", 3000]}
+            steps={[" little programmer", 3000, " clever learner", 3000]}
             loop={Infinity}
             wrapper="b"
           />

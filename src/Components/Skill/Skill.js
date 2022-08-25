@@ -4,16 +4,16 @@ import "./Skill.css";
 
 const Skill = () => {
   const allSkill = [
-    { id: "01", skillType: "web", skill: "HTML", expertLevel: 90 },
-    { id: "02", skillType: "web", skill: "CSS", expertLevel: 90 },
-    { id: "03", skillType: "web", skill: "SASS", expertLevel: 90 },
-    { id: "04", skillType: "web", skill: "MaterialUI", expertLevel: 90 },
-    { id: "05", skillType: "web", skill: "ReactJS", expertLevel: 90 },
-    { id: "06", skillType: "web", skill: "NextJS", expertLevel: 75 },
-    { id: "07", skillType: "web", skill: "NodeJS", expertLevel: 75 },
-    { id: "08", skillType: "web", skill: "ExpressJS", expertLevel: 75 },
-    { id: "09", skillType: "web", skill: "GO-Fiber", expertLevel: 70 },
-    { id: "10", skillType: "web", skill: "MongoDB", expertLevel: 70 },
+    { id: "01", skillType: "web", skill: "Html", expertLevel: 90 },
+    { id: "02", skillType: "web", skill: "Css", expertLevel: 90 },
+    { id: "03", skillType: "web", skill: "Sass", expertLevel: 90 },
+    { id: "04", skillType: "web", skill: "tailwindCss", expertLevel: 90 },
+    { id: "05", skillType: "web", skill: "MaterialUI", expertLevel: 90 },
+    { id: "06", skillType: "web", skill: "ReactJS", expertLevel: 80 },
+    { id: "07", skillType: "web", skill: "NextJS", expertLevel: 50 },
+    { id: "08", skillType: "web", skill: "NodeJS", expertLevel: 70 },
+    { id: "09", skillType: "web", skill: "ExpressJS", expertLevel: 80 },
+    { id: "10", skillType: "web", skill: "MongoDB/Redis", expertLevel: 70 },
 
     {
       id: "11",
@@ -30,7 +30,7 @@ const Skill = () => {
     {
       id: "15",
       skillType: "programming",
-      skill: "GO Lang",
+      skill: "Go Language",
       expertLevel: 70,
     },
     { id: "13", skillType: "programming", skill: "C", expertLevel: 50 },

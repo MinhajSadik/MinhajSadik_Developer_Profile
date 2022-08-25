@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Progress from "../Progress/Progress";
 import "./Skill.css";
 
@@ -7,8 +7,8 @@ const Skill = () => {
     { id: "01", skillType: "web", skill: "Html", expertLevel: 90 },
     { id: "02", skillType: "web", skill: "Css", expertLevel: 90 },
     { id: "03", skillType: "web", skill: "Sass", expertLevel: 90 },
-    { id: "04", skillType: "web", skill: "tailwindCss", expertLevel: 90 },
-    { id: "05", skillType: "web", skill: "MaterialUI", expertLevel: 90 },
+    { id: "04", skillType: "web", skill: "Tailwind Css", expertLevel: 90 },
+    { id: "05", skillType: "web", skill: "Material UI", expertLevel: 90 },
     { id: "06", skillType: "web", skill: "ReactJS", expertLevel: 80 },
     { id: "07", skillType: "web", skill: "NextJS", expertLevel: 50 },
     { id: "08", skillType: "web", skill: "NodeJS", expertLevel: 70 },

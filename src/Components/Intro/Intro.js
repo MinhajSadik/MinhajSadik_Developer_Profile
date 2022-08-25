@@ -1,4 +1,3 @@
-import React from "react";
 import { AiFillLinkedin, AiFillYoutube, AiOutlineMedium } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -16,7 +15,7 @@ const Intro = () => {
         <br />
         <br />
         <h2 className="font-weight-bolder text-white developer">
-          i'm a
+          I am a
           <Typical
             steps={[" Little Programmer", 3000, " Clever Learner", 3000]}
             loop={Infinity}

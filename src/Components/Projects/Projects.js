@@ -1,11 +1,8 @@
-import React from "react";
-import Blogs from "../../images/projectImage/blogs_app_image.png";
-import Ema from "../../images/projectImage/Ema-Jhon Simple.png";
-import Team from "../../images/projectImage/footballTeamSelector.png";
-import Grocery from "../../images/projectImage/Grocery-Shop.png";
-import hotGadgets from "../../images/projectImage/hotGadgets.JPG";
-import pandaCommerce from "../../images/projectImage/pandaCommerce.JPG";
-import Urban from "../../images/projectImage/Urban-Riders.png";
+import Appointment_Booking from "../../images/projectImage/appointment_booking.png";
+import Blog_Website from "../../images/projectImage/blog_website.png";
+import Clever_Learner from "../../images/projectImage/clever_learner_quiz.png";
+import Feature_Request from "../../images/projectImage/feature_request.png";
+import Product_Hunt from "../../images/projectImage/product_hunt.png";
 import Project from "./Project";
 import "./Projects.css";
 
@@ -13,65 +10,50 @@ const Projects = () => {
   const allProjects = [
     {
       id: "01",
-      img: "" + Blogs,
-      title: "Blogs Website",
+      img: "" + Appointment_Booking,
+      title: "Appointment Booking System",
       description:
-        "A Full Stack well state management comment and reply featured blog website",
-      gitHub: "https://github.com/MinhajSadik/Blog_Website_FullStack",
-      liveLink: "https://blogs-website-client.netlify.app/",
+        "A Full Stack Appointment Bookink System for University student, teacher and administration",
+      gitHub: "https://github.com/MinhajSadik/Appointment_System",
+      liveLink: "https://appointment-system.netlify.app",
     },
     {
       id: "02",
-      img: "" + Grocery,
-      title: "Grocery Shop",
-      description: "A Full Stack Grocery Shop Website.",
-      gitHub: "https://github.com/MinhajSadik/Full-Stack-Grocery-Shop",
-      liveLink: "https://full-stack-grocery-house-shop.netlify.app/",
+      img: "" + Clever_Learner,
+      title: "Clever Learner",
+      description:
+        "Clever Learner is an quiz app, there are multi types of quizzes",
+      gitHub: "https://github.com/MinhajSadik/Clever_Learner",
+      liveLink: "https://clever-learner-quiz.netlify.app",
     },
 
     {
       id: "03",
-      img: "" + Ema,
-      title: "Ema Jhon Website",
-      description: "A Full Stack Ema Jhon Website.",
-      gitHub: "https://github.com/MinhajSadik/React-Ema-Jhon-Simple",
-      liveLink: "https://full-stack-ema-jhon-simple.netlify.app/",
+      img: "" + Feature_Request,
+      title: "Feature Request",
+      description:
+        "Feature Request is an product or apps features request from user and client.",
+      gitHub: "https://github.com/MinhajSadik/Feature_Request",
+      liveLink: "https://feature-request.netlify.app/",
     },
     {
       id: "05",
-      img: "" + hotGadgets,
-      title: "Hot Gatgets",
-      description: "A Front End E-Commerce website.",
-      gitHub: "https://github.com/MinhajSadik/Hot-Gadget",
-      liveLink: "https://minhajsadik.github.io/Hot-Gadget/",
+      img: "" + Blog_Website,
+      title: "Blog Website",
+      description:
+        "Simple Blog website, there you can create blog and you can comment in single blog also can reply each blog",
+      gitHub: "https://github.com/MinhajSadik/Blog_Website_FullStack",
+      liveLink: "https://blogs-website-client.netlify.app",
     },
 
     {
       id: "06",
-      img: "" + pandaCommerce,
-      title: "Panda Commerce",
-      description: "A Front End Panda Commerce Website.",
-      gitHub: "https://github.com/MinhajSadik/Panda-E-commerce-Bootstrap",
-      liveLink:
-        "https://minhajsadik.github.io/Panda-E-commerce-Bootstrap/Index.html",
-    },
-
-    {
-      id: "07",
-      img: "" + Team,
-      title: "Football Team Selectors",
+      img: "" + Product_Hunt,
+      title: "Product Hunt",
       description:
-        "A React-Router Football Leauge Team Selector Under Router Websites.",
-      gitHub: "https://github.com/MinhajSadik/Football-League-Router",
-      liveLink: "https://football-league-router.netlify.app/",
-    },
-    {
-      id: "04",
-      img: "" + Urban,
-      title: "Urban Riders",
-      description: "A Dynamic And Fully Authorized Website.",
-      gitHub: "https://github.com/MinhajSadik/React-Urban-Riders",
-      liveLink: "https://google-authorization-urban-riders.netlify.app/",
+        "Product Hunt is an product based well organized website, there have products and so many features you can see",
+      gitHub: "https://github.com/MinhajSadik/Product_Hunt_FullStack",
+      liveLink: "https://product-hunt-fullstack.netlify.app",
     },
   ];
   return (

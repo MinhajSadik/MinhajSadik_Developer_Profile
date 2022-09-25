@@ -1,7 +1,7 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
 import emailjs from "emailjs-com";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { IoMdCloudDone } from "react-icons/io";
 import "./Contact.css";

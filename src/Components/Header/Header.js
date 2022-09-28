@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../images/logo.jpg";
 import CV from "../../images/resume.pdf";
@@ -57,7 +56,7 @@ const Header = () => {
             </li>
           </ul>
 
-          <a href={CV} download="Resume">
+          <a href={CV} download="MinhajSadik_Resume">
             <button className="btn btn-outline-success my-2 my-sm-0">
               Get Resume
             </button>

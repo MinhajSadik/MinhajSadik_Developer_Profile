@@ -25,7 +25,7 @@ const Intro = () => {
         <br />
         <br />
         <br />
-        <a href={CV} download="Resume">
+        <a href={CV} download="MinhajSadik_Resume">
           <button className="btn btn-success my-2 my-sm-0 btn-style">
             Get Resume
           </button>
@@ -83,42 +83,3 @@ const Intro = () => {
 };
 
 export default Intro;
-
-// eslint-disable-next-line no-lone-blocks
-{
-  /* <Particles style={{ width: '50%', height: '50%' }}
-                        params={{
-                            "particles": {
-                                "number": {
-                                    "value": 160,
-                                    "density": {
-                                        "enable": false
-                                    }
-                                },
-                                "size": {
-                                    "value": 10,
-                                    "random": true
-                                },
-                                "move": {
-                                    "direction": "bottom",
-                                    "out_mode": "out"
-                                },
-                                "line_linked": {
-                                    "enable": false
-                                }
-                            },
-                            "interactivity": {
-                                "events": {
-                                    "onclick": {
-                                        "enable": true,
-                                        "mode": "remove"
-                                    }
-                                },
-                                "modes": {
-                                    "remove": {
-                                        "particles_nb": 10
-                                    }
-                                }
-                            }
-                        }} /> */
-}

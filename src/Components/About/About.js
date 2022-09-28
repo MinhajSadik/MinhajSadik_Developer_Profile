@@ -1,7 +1,6 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
 import Aos from "aos";
 import "aos/dist/aos.css";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Minhaj from "../../images/minhaj.jpg";
 import CV from "../../images/resume.pdf";
@@ -11,7 +10,6 @@ const About = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
-  // const alignCenter = { display: "flex", alignItems: "center" };
 
   return (
     <div id="about-section" className="container about">
@@ -45,61 +43,15 @@ const About = () => {
         </div>
         <div data-aos="flip-up" className="col-md-6 about-mySelf">
           <h3>
-            Hello! 👋 I'm [Minhaj Sadik], a passionate Software Engineer, i can
+            Hello! 👋 I'm Minhaj Sadik, a passionate software engineer. I
             develop web applications, mobile applications, and desktop
-            applications. I can design & build any complex software, website. I
-            can handle Algorithms & Data-Structure for better performance and
-            every time I write efficient Code for readability. my core skill is
-            based on JavaScript and I love to do most of the things using
-            JavaScript. I am available for any kind of job opportunity that
-            suits my interests.
+            applications. My core skill is based on JavaScript and I love to do
+            most of the things using JavaScript. I love to make the web more
+            open to the world. I am a undergraduate with a bachelor's degree in
+            Computer Science Engineering from Leading University at Sylhet,
+            Bangladesh in 2023. I am available for any kind of job opportunity
+            that suits my interests.
           </h3>
-          {/* <div>
-            <div className={styles.background} />
-
-            <Parallax pages={5}>
-              <ParallaxLayer
-                offset={0}
-                speed={0.5}
-                style={{ ...alignCenter, justifyContent: "center" }}
-              >
-                <p className={styles.scrollText}>Name: Minhaj Sadik</p>
-              </ParallaxLayer>
-
-              <ParallaxLayer
-                sticky={{ start: 2, end: 3 }}
-                style={{ ...alignCenter, justifyContent: "flex-start" }}
-              >
-                <div className={`${styles.card} ${styles.sticky}`}>
-                  <p>Software Enginner</p>
-                </div>
-              </ParallaxLayer>
-
-              <ParallaxLayer
-                offset={1.5}
-                speed={1.5}
-                style={{ ...alignCenter, justifyContent: "flex-end" }}
-              >
-                <div
-                  className={`${styles.card} ${styles.parallax} ${styles.purple}`}
-                >
-                  <p>Front-End</p>
-                </div>
-              </ParallaxLayer>
-
-              <ParallaxLayer
-                offset={2.5}
-                speed={1.5}
-                style={{ ...alignCenter, justifyContent: "flex-end" }}
-              >
-                <div
-                  className={`${styles.card} ${styles.parallax} ${styles.blue}`}
-                >
-                  <p>Back-End</p>
-                </div>
-              </ParallaxLayer>
-            </Parallax>
-          </div> */}
         </div>
       </div>
     </div>
